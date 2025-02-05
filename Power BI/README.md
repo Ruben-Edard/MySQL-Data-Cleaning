@@ -26,7 +26,7 @@ To conduct this analysis, the following tools and technologies were used:
 ## Project Guide
 
 Data model:
-I import the CSV into PowerBI, clean the data, removing duplicates and change the data type of fields, where I link the tables together in the Model side tab:
+I import the CSV into PowerBI, clean the data, removing duplicates, change the data type of fields and create slicer values, finally I link the tables together in the Model side tab:
 
 ![imagem](https://github.com/user-attachments/assets/fb42f895-f519-4280-ba89-84b1f13a0a99)
 
