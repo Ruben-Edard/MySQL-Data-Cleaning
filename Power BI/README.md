@@ -19,7 +19,6 @@ This project aims to analyze sales data to uncover insights into revenue, costs,
 
 To conduct this analysis, the following tools and technologies were used:
 
-    Microsoft Excel – Initial data exploration and cleaning
-    Power BI – Data transformation, modeling, and visualization
+    Microsoft Excel – Initial data exploration
     Power Query – Data cleaning and transformation
-    SQL (if applicable) – Querying structured data for deeper insights
+    Power BI – Data modeling and visualization
