@@ -29,3 +29,8 @@ Data model:
 I import the CSV into PowerBI, clean the data, removing duplicates and change the data type of fields, where I link the tables together in the Model side tab:
 
 ![imagem](https://github.com/user-attachments/assets/fb42f895-f519-4280-ba89-84b1f13a0a99)
+
+
+# Dashboard
+
+![imagem](https://github.com/user-attachments/assets/1044245d-f8a5-475e-93f8-25f870b0e32d)
