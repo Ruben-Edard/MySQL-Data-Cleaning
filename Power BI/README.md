@@ -58,6 +58,12 @@ The stacked bar chart shows Indoor, Landscape, and Outdoor product sales peaking
 
 ![imagem](https://github.com/user-attachments/assets/8f7dff88-bc4a-426b-aa6b-6f676a0b1180)
 
+## 3. Which countries are performing above or below expectations?
+
+The "Bottom 10 YTD vs PYTD | Country" chart highlights Canada (-$73.71K) and Colombia (-$61.12K) as the markets with largest declines, followed by several European countries showing negative growth.
+
+![imagem](https://github.com/user-attachments/assets/2d6e1352-1e21-49c6-859f-7b4f1c2608b4)
+
 
 # Impact and Insights
 
