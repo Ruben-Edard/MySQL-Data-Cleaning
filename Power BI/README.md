@@ -10,7 +10,9 @@
 
 # Introduction
 
-This project analyzes the sales performance and profitability metrics of a plant distribution company operating across multiple countries. Using Power BI, the analysis transforms raw sales data into actionable insights, helping stakeholders understand market trends, product performance, and geographical distribution of sales.
+This project analyzes the sales performance and profitability metrics of a plant distribution company operating across multiple countries. Using Power BI, the analysis transforms raw sales data into actionable insights, helping stakeholders understand market trends, product performance, and geographical distribution of sales.  
+
+This marks my first Power BI project, representing my initial exploration into business intelligence visualization. While there may be areas for improvement, it demonstrates fundamental data analysis and visualization capabilities.
 
 The dataset used in this analysis is available in my GitHub repository: [Plant DTS](https://github.com/Ruben-Eduard/PortfolioProjects/blob/main/Power%20BI/Plant_DTS.xls)
 
