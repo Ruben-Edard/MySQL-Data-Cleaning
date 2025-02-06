@@ -1,3 +1,7 @@
+Table of Contents
+[Introduction](#Introduction)  
+[Background](#Background)  
+
 # Introduction
 
 This project analyzes the sales performance and profitability metrics of a plant distribution company operating across multiple countries. Using Power BI, the analysis transforms raw sales data into actionable insights, helping stakeholders understand market trends, product performance, and geographical distribution of sales.
