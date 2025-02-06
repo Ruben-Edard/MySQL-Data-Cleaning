@@ -1,6 +1,6 @@
 Table of Contents
 
-[Introduction](#Introduction)  
+### [Introduction](#Introduction)  
 [Background](#Background)  
 
 # Introduction
