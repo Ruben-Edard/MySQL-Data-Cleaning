@@ -22,6 +22,9 @@ To conduct this analysis, the following tools and technologies were used:
     Power Query – Data cleaning, transformation and DAX calculations
     Power BI – Data modeling and visualization
 
+# Main Dashboard
+
+![imagem](https://github.com/user-attachments/assets/1044245d-f8a5-475e-93f8-25f870b0e32d)
 
 ## Project Guide
 
@@ -31,17 +34,12 @@ I import the CSV into PowerBI, clean the data, removing duplicates, change the d
 ![imagem](https://github.com/user-attachments/assets/fb42f895-f519-4280-ba89-84b1f13a0a99)
 
 
-# Main Dashboard
-
-![imagem](https://github.com/user-attachments/assets/1044245d-f8a5-475e-93f8-25f870b0e32d)
-
 ## 1. What are the year-to-date sales trends across different months?
 
-'Sales YTD vs PYTD | Month - Country - Product' chart answers that;
+Year-to-date sales trends Sales show varied performance in 2024, with March reaching a peak (+$0.34M) followed by an April decline (-$0.24M). This trend is visible in the "Sales YTD vs PYTD | Month - Country - Product" chart.
 
-Shows monthly trends with increase/decrease indicators;
 
-Demonstrates clear comparison between YTD and PYTD values.
+![imagem](https://github.com/user-attachments/assets/a914abc1-858a-4bdd-892a-6dad14c14ec9)
 
 
 # Impact and Insights
