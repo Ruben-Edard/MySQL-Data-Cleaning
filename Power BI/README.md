@@ -1,11 +1,10 @@
-#### Table of Contents
-
-[Introduction](#Introduction)  
-[Background](#Background)  
-[Tools Used](#Tools-Used)  
-[Main Dashboard](#Main-Dashboard)  
-[Project Guide](#Project-Guide)  
-[Business Questions](#1-what-are-the-year-to-date-sales-trends-across-different-months)
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Background](#background)
+3. [Tools Used](#tools-used)
+4. [Main Dashboard](#main-dashboard)
+5. [Project Guide](#project-guide)
+6. [Business Questions](#1-what-are-the-year-to-date-sales-trends-across-different-months)
 
 # Introduction
 
