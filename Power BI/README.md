@@ -1,7 +1,10 @@
 Table of Contents
 
-### [Introduction](#Introduction)  
-[Background](#Background)  
+#### [Introduction](#Introduction)
+#### [Background](#Background)  
+#### [Main Dashboard](#Main Dashboard)
+####
+####
 
 # Introduction
 
