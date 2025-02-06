@@ -1,8 +1,6 @@
 #### Table of Contents
 
-#### [Introduction](#Introduction)
-#### [Background](#Background)
-#### [Main Dashboard](#Main-Dashboard)
+#### [Introduction](#Introduction)  [Background](#Background) [Main Dashboard](#Main-Dashboard)
  
 # Introduction
 
