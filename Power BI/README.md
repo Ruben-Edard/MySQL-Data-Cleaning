@@ -40,3 +40,12 @@ I import the CSV into PowerBI, clean the data, removing duplicates, change the d
 'Sales YTD vs PYTD | Month - Country - Product' chart answers that;
 Shows monthly trends with increase/decrease indicators;
 Demonstrates clear comparison between YTD and PYTD values.
+
+
+# Impact and Insights
+
+These analyses provide actionable insights for various stakeholders:
+Sales teams can identify underperforming regions and products
+Product managers can understand category performance trends
+Financial analysts can track profitability metrics
+Executive teams can make informed decisions about resource allocation and market focus
