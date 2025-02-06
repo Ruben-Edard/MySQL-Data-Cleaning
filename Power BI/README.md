@@ -3,7 +3,8 @@
 [Introduction](#Introduction)  
 [Background](#Background)  
 [Main Dashboard](#Main-Dashboard)  
- 
+[Tools Used](#Tools-Used)  
+[Business Questions](##1.)  
 # Introduction
 
 This project analyzes the sales performance and profitability metrics of a plant distribution company operating across multiple countries. Using Power BI, the analysis transforms raw sales data into actionable insights, helping stakeholders understand market trends, product performance, and geographical distribution of sales.
@@ -20,7 +21,7 @@ Plant Co. operates internationally, selling various types of plants categorized 
     4. What is the overall gross profit margin, and how does it vary across accounts?
     5. How are total sales distributed geographically across different markets?
 
-# Tools Used
+## Tools Used
 
 To conduct this analysis, the following tools and technologies were used:
 
