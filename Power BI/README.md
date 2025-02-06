@@ -5,6 +5,7 @@
 [Tools Used](#Tools-Used)  
 [Main Dashboard](#Main-Dashboard)  
 [Project Guide](#Project-Guide)  
+[Business Questions](#year-to-date-sales-trends)
 
 # Introduction
 
