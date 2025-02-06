@@ -38,7 +38,9 @@ I import the CSV into PowerBI, clean the data, removing duplicates, change the d
 ## 1. What are the year-to-date sales trends across different months?
 
 'Sales YTD vs PYTD | Month - Country - Product' chart answers that;
+
 Shows monthly trends with increase/decrease indicators;
+
 Demonstrates clear comparison between YTD and PYTD values.
 
 
