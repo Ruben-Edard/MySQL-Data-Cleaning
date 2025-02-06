@@ -5,6 +5,10 @@
 4. [Main Dashboard](#main-dashboard)
 5. [Project Guide](#project-guide)
 6. [Business Questions](#1-what-are-the-year-to-date-sales-trends-across-different-months)
+7. [Impact and Insights](#impact-and-insights)
+8. [Challenges Faced](#challenges-faced)
+10. [Lessons Learned](#lessons-learned)
+11. [Conclusion](#conclusion)
 
 # Introduction
 
