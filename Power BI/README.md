@@ -50,8 +50,13 @@ I import the CSV into PowerBI, clean the data, removing duplicates, change the d
 
 Year-to-date sales trends Sales show varied performance in 2024, with March reaching a peak (+$0.34M) followed by an April decline (-$0.24M). This trend is visible in the "Sales YTD vs PYTD | Month - Country - Product" chart.
 
-
 ![imagem](https://github.com/user-attachments/assets/a914abc1-858a-4bdd-892a-6dad14c14ec9)
+
+## 2. How do different product types (Indoor, Landscape, Outdoor) contribute to overall sales?
+
+The stacked bar chart shows Indoor, Landscape, and Outdoor product sales peaking at 1.15M in March before dropping to 0.39M in April. Indoor products consistently lead in sales volume.
+
+![imagem](https://github.com/user-attachments/assets/8f7dff88-bc4a-426b-aa6b-6f676a0b1180)
 
 
 # Impact and Insights
