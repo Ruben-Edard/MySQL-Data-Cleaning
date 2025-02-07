@@ -4,7 +4,7 @@
 3. [Tools Used](#tools-used)
 4. [Main Dashboard](#main-dashboard)
 5. [Project Guide](#project-guide)
-6. [Business Questions](#1-what-are-the-year-to-date-sales-trends-across-different-months)
+6. [Business Questions](#1-what-are-the-year-to-date-performance-trends-across-different-countries)
 7. [Impact and Insights](#impact-and-insights)
 8. [Conclusion](#conclusion)
 
@@ -20,11 +20,11 @@ The dataset used in this analysis is available in my GitHub repository: [Plant D
 
 Plant Co. operates internationally, selling various types of plants categorized as Indoor, Outdoor, and Landscape products. The company faces challenges in tracking performance across different markets and maintaining profitability targets. With operations spanning multiple countries and a diverse product portfolio, there's a critical need to understand sales patterns, identify underperforming markets, and optimize product mix.
     
-    1. What are the year-to-date sales trends across different months?
-    2. How do different product types (Indoor, Landscape, Outdoor) contribute to overall sales?
-    3. Which countries are performing above or below expectations compared to the previous year?
-    4. What is the overall gross profit margin, and how does it vary across accounts?
-    5. How are total sales distributed geographically across different markets?
+    1. What are the year-to-date performance trends across different countries?
+    2. How does gross profit performance vary across quarters and product types?
+    3. What does the account profitability segmentation reveal?
+    4. What are the monthly patterns in gross profit performance?
+    5. Which countries show the most significant decline in gross profit compared to the prior year, and what's the scale of these declines?
 
 ## Tools Used
 
@@ -34,9 +34,9 @@ To conduct this analysis, the following tools and technologies were used:
     Power Query – Data cleaning, transformation and DAX calculations
     Power BI – Data modeling and visualization
 
-# Main Dashboard
+## Main Dashboard
 
-![imagem](https://github.com/user-attachments/assets/1044245d-f8a5-475e-93f8-25f870b0e32d)
+![imagem](https://github.com/user-attachments/assets/f41fd09e-7ad2-4b2f-b0f7-4409fc36765f)
 
 ## Project Guide
 
@@ -46,11 +46,11 @@ I import the CSV into PowerBI, clean the data, removing duplicates, change the d
 ![imagem](https://github.com/user-attachments/assets/fb42f895-f519-4280-ba89-84b1f13a0a99)
 
 
-## 1. What are the year-to-date sales trends across different months?
+## 1. What are the year-to-date performance trends across different countries?
 
-Year-to-date sales trends Sales show varied performance in 2024, with March reaching a peak (+$0.34M) followed by an April decline (-$0.24M). This trend is visible in the "Sales YTD vs PYTD | Month - Country - Product" chart.
+The data reveals a concerning performance gap in 2023 compared to 2022, with an overall decline of 265.29K in gross profit. China shows the most significant deterioration, with gross profit falling 405K below its 2022 performance for the same period. Followed by notable declines in Sweden (-63.43K) and the United States (-57.38K), suggesting particular challenges in these major markets during 2023.
 
-![imagem](https://github.com/user-attachments/assets/a914abc1-858a-4bdd-892a-6dad14c14ec9)
+![imagem](https://github.com/user-attachments/assets/efa3ffac-ea6b-4dcb-b7e4-d3edb19b9036)
 
 ## 2. How do different product types (Indoor, Landscape, Outdoor) contribute to overall sales?
 
@@ -63,6 +63,11 @@ The stacked bar chart shows Indoor, Landscape, and Outdoor product sales peaking
 The "Bottom 10 YTD vs PYTD | Country" chart highlights Canada (-$73.71K) and Colombia (-$61.12K) as the markets with largest declines, followed by several European countries showing negative growth.
 
 ![imagem](https://github.com/user-attachments/assets/2d6e1352-1e21-49c6-859f-7b4f1c2608b4)
+
+## 4. What is the overall gross profit margin?
+
+Overall gross profit margin stands at 39.15%. The scatter plot shows account distribution against a 40% target line, helping identify which accounts meet profitability goals.
+
 
 
 # Impact and Insights
