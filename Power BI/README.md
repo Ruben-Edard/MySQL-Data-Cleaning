@@ -66,17 +66,13 @@ The scatter plot demonstrates that the company maintains an average gross profit
 
 ## 4. What are the monthly patterns in gross profit performance?
 
-Overall gross profit margin stands at 39.15%. The scatter plot shows account distribution against a 40% target line, helping identify which accounts meet profitability goals.
+he monthly analysis shows strongest performance in March and April, with gains of 69K and 89K respectively. However, the latter part of the year faces significant challenges, particularly in August (-87K) and October (-148K). The pronounced decline in October especially warrants attention, as it represents the largest monthly drop in gross profit. The consistent negative performance in the final months of the year indicates a systemic challenge in Q4 that needs to be addressed.
 
-![imagem](https://github.com/user-attachments/assets/66082114-9e90-40b2-9a66-49561ce3c3cb)
-
-
-
-
+![imagem](https://github.com/user-attachments/assets/c97887c6-0aae-4e3e-a249-fbc2294afca2)
 
 # Impact and Insights
 
-These analyses provide actionable insights for various stakeholders: 
+These analyses provide actionable insights for various stakeholders:  
 Sales teams can identify underperforming regions and products  
 Product managers can understand category performance trends  
 Financial analysts can track profitability metrics  
