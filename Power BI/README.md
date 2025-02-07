@@ -4,7 +4,7 @@
 3. [Tools Used](#tools-used)
 4. [Main Dashboard](#main-dashboard)
 5. [Project Guide](#project-guide)
-6. [Business Questions](#1-what-are-the-year-to-date-performance-trends-across-different-countries)
+6. [Business Problems](#1-what-are-the-year-to-date-performance-trends-across-different-countries)
 7. [Impact and Insights](#impact-and-insights)
 8. [Conclusion](#conclusion)
 
@@ -24,7 +24,6 @@ Plant Co. operates internationally, selling various types of plants categorized 
     2. How does gross profit performance vary across quarters and product types?
     3. What does the account profitability segmentation reveal?
     4. What are the monthly patterns in gross profit performance?
-    5. Which countries show the most significant decline in gross profit compared to the prior year, and what's the scale of these declines?
 
 ## Tools Used
 
@@ -52,21 +51,26 @@ The data reveals a concerning performance gap in 2023 compared to 2022, with an 
 
 ![imagem](https://github.com/user-attachments/assets/efa3ffac-ea6b-4dcb-b7e4-d3edb19b9036)
 
-## 2. How do different product types (Indoor, Landscape, Outdoor) contribute to overall sales?
+## 2. How does gross profit performance vary across quarters and product types?
 
-The stacked bar chart shows Indoor, Landscape, and Outdoor product sales peaking at 1.15M in March before dropping to 0.39M in April. Indoor products consistently lead in sales volume.
+The quarterly performance shows a fluctuating pattern, with Q2 emerging as the strongest period reaching 1.47M in gross profit. However, there's a noticeable decline in subsequent quarters, with Q3 dropping to 1.17M and Q4 slightly recovering to 1.29M. Looking at product categories, Outdoor products consistently generate the highest portion of gross profit across all quarters, indicating their crucial role in the company's profitability.
 
-![imagem](https://github.com/user-attachments/assets/8f7dff88-bc4a-426b-aa6b-6f676a0b1180)
+![imagem](https://github.com/user-attachments/assets/38e2fe3b-4eeb-4163-9534-4e09bbc2f026)
 
-## 3. Which countries are performing above or below expectations?
 
-The "Bottom 10 YTD vs PYTD | Country" chart highlights Canada (-$73.71K) and Colombia (-$61.12K) as the markets with largest declines, followed by several European countries showing negative growth.
+## 3. What does the account profitability segmentation reveal?
 
-![imagem](https://github.com/user-attachments/assets/2d6e1352-1e21-49c6-859f-7b4f1c2608b4)
+The scatter plot demonstrates that the company maintains an average gross profit margin of 39.62%. When examining individual accounts, there's a clear concentration of accounts below both the 20K value mark and the 40% GP margin average. However, several accounts demonstrate the potential for higher profitability by achieving margins above 60%. This disparity between high and low-performing accounts suggests an opportunity for improvement among the underperforming segments.
 
-## 4. What is the overall gross profit margin?
+![imagem](https://github.com/user-attachments/assets/cef5d50b-5ac5-4125-841c-c884e8313031)
+
+## 4. What are the monthly patterns in gross profit performance?
 
 Overall gross profit margin stands at 39.15%. The scatter plot shows account distribution against a 40% target line, helping identify which accounts meet profitability goals.
+
+![imagem](https://github.com/user-attachments/assets/66082114-9e90-40b2-9a66-49561ce3c3cb)
+
+
 
 
 
