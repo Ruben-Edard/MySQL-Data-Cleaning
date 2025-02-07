@@ -15,7 +15,25 @@ The dataset used in this project is sourced from Kaggle here: [Animal Planet](ht
 
 # Data Loading
 
-![imagem](https://github.com/user-attachments/assets/09a04bd7-5b63-4e53-b9b8-1edce6ad4a84)
+```python
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+import numpy as np
 
+# Read the dataset
+df = pd.read_csv('animals_info.csv')
+
+# Display basic information about the dataset
+print("=== Dataset Overview ===")
+print(f"Number of animals: {len(df)}")
+print(f"\nColumns in the dataset:")
+for col in df.columns:
+    print(f"- {col}")
+
+# Display first few rows
+print("\n=== First Few Rows ===")
+df.head(3)
+```
 
 # Key Insights
