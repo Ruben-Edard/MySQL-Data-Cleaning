@@ -159,6 +159,10 @@ The scatter plot reveals speed and population data only for Aves, Mammalia, and 
 
 ![imagem](https://github.com/user-attachments/assets/471b5dbc-a7cd-4120-941d-ebac2083f0da)
 
+The bar graph displays the average lifespan across different animal classes, revealing some intriguing variations in longevity. Reptilia stands out with the highest average lifespan of 20.5 years, significantly longer than other classes. Aves (birds) and Mammalia (mammals) show similar lifespans around 14-15 years, with birds at 14.7 years and mammals at 14.6 years. Amphibia has the shortest average lifespan at just 4 years, which is substantially lower than the other represented classes.
+
+This visualization highlights the diverse life expectancies across different animal groups, suggesting significant evolutionary adaptations in longevity. The remarkable lifespan of reptiles, which is nearly five times that of amphibians, underscores the complex factors influencing biological aging and survival strategies in different taxonomic groups. The relatively consistent lifespans of birds and mammals also provide an interesting point of comparison in the animal kingdom.
+
 ```python
 # Set figure size and style
 plt.figure(figsize=(14, 7))
@@ -198,7 +202,6 @@ plt.show()
 ### Key Findings
 1. **Conservation Status**
    - Most critical conservation statuses
-   - Percentage of endangered species
 
 2. **Species Distribution**
    - Dominant animal classes
@@ -213,7 +216,7 @@ plt.show()
    - Factors potentially influencing longevity
 
 ### Limitations and Future Work
-- Dataset Limitations: Missing values, inconsistent data formats.
+- Dataset Limitations: **Missing values**, inconsistent data formats.
 - Biases: Potential lack of representation for some species.
 - Future Enhancements: Machine learning models for species classification or conservation status prediction.
 
