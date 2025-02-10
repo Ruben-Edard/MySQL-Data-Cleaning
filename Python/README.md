@@ -1,5 +1,11 @@
 # Wildlife A Global Species Analysis
 
+### Project Description
+This comprehensive data science project explores a global wildlife dataset, focusing on:
+- 🔍 Species characteristics analysis
+- 📊 Biodiversity insights
+- 🌱 Conservation status evaluation
+
 ## Table of Contents
 1. [Introduction](#Introduction)
 2. [Data Loading](#Data-Loading)
@@ -8,10 +14,7 @@
 5. [Insights and Conclusions](#insights-and-conclusions)
 
 ## Introduction
-This project represents my initial journey into data and Python programming, focusing on analyzing a comprehensive wildlife dataset.
-This data set contains information about various animal species, their characteristics, habitats, and conservation status. The analysis includes population trends, species distribution, physical characteristics, and conservation insights.
-
-This project is particularly relevant in the context of global biodiversity loss and the urgent need for effective conservation strategies. Understanding the factors that influence species survival, such as lifespan, habitat, and conservation status, can help inform policy decisions and conservation efforts.
+This project represents my initial journey into data analysis and Python programming, focusing on a comprehensive wildlife dataset. The dataset includes information about various animal species, their characteristics, habitats, and conservation statuses. By analyzing this data, I aim to uncover insights into population trends, species distribution, and conservation challenges.
 
 The dataset used in this project is sourced from Kaggle: [Animal Planet](https://www.kaggle.com/datasets/lainguyn123/animal-planet)
 
@@ -222,4 +225,5 @@ plt.show()
 - Future Enhancements: Machine learning models for species classification or conservation status prediction.
 
 ## Contact Information
+- [**Email**](mailto:rubensamartinean@gmail.com)
 - [**LinkedIn**](https://www.linkedin.com/in/ruben-sam/)
