@@ -21,7 +21,6 @@ The dataset used in this project is sourced from Kaggle: [Animal Planet](https:/
 1. Clean and preprocess the wildlife dataset
 2. Explore species characteristics
 3. Visualize key findings
-4. Provide insights into global biodiversity
 
 **Personal Learning Objectives:**
 - Improve Python programming skills
@@ -51,7 +50,7 @@ for col in df.columns:
 print("\n=== First Few Rows ===")
 df.head(3)
 ```
-### Data Cleaning and Preprocessing
+## Data Cleaning and Preprocessing
 
 Let's clean our data and prepare it for analysis:
 1. Handle missing values
@@ -87,6 +86,22 @@ print(df[numerical_cols].describe())
 print("\n=== Missing Values ===")
 print(df[numerical_cols].isnull().sum())
 ```
+
+## Exploratory Data Analysis
+
+### Conservation Status Analysis
+
+# Create a figure for distribution of animal classes
+plt.figure(figsize=(12, 6))
+class_counts = df['Class'].value_counts()
+sns.barplot(x=class_counts.values[:10], y=class_counts.index[:10])
+plt.title('Top 10 Animal Classes in Dataset')
+plt.xlabel('Number of Species')
+plt.ylabel('Class')
+plt.tight_layout()
+plt.show()
+
+
 ## Insights and Conclusions
 
 ### Key Findings
