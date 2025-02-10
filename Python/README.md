@@ -1,4 +1,3 @@
-
 # Wildlife A Global Species Analysis
 
 ## Table of Contents
@@ -6,12 +5,18 @@
 2. [Data Loading](#Data-Loading)
 3. [Data Cleaning and Preprocessing](#Data-Cleaning-and-Preprocessing)
 4. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-5. [Insights and Conclusions](#insights-and-conclusions)
+- [Distribution of Conservation Status](#conservation-status-analysis)
+- [Top 10 Animal Classes](#distribution-of-animal-classes)
+- [Speed and Population Analysis](#speed-and-population-analysis)
+- [Lifespan Analysis](#lifespan-analysis)
+6. [Insights and Conclusions](#insights-and-conclusions)
 
 
 ## Introduction
 This project represents my initial journey into data and Python programming, focusing on analyzing a comprehensive wildlife dataset.
 This data set contains information about various animal species, their characteristics, habitats, and conservation status. The analysis includes population trends, species distribution, physical characteristics, and conservation insights.
+
+This project is particularly relevant in the context of global biodiversity loss and the urgent need for effective conservation strategies. Understanding the factors that influence species survival, such as lifespan, habitat, and conservation status, can help inform policy decisions and conservation efforts.
 
 The dataset used in this project is sourced from Kaggle: [Animal Planet](https://www.kaggle.com/datasets/lainguyn123/animal-planet)
 
@@ -22,11 +27,12 @@ The dataset used in this project is sourced from Kaggle: [Animal Planet](https:/
 2. Explore species characteristics
 3. Visualize key findings
 
-**Personal Learning Objectives:**
-- Improve Python programming skills
-- Learn data manipulation with pandas
-- Practice data visualization techniques
-- Develop analytical thinking
+### Technologies Used
+- **Python**: Data manipulation, analysis, and visualization
+- **Pandas**: Data cleaning and preprocessing
+- **Matplotlib & Seaborn**: Data visualization
+- **NumPy**: Numerical computations
+- **Jupyter Notebook**: Interactive coding and documentation
 
 ## Data Loading
 ### Import Required Libraries
@@ -220,9 +226,5 @@ plt.show()
 - Biases: Potential lack of representation for some species.
 - Future Enhancements: Machine learning models for species classification or conservation status prediction.
 
-**Skills Developed:**
-- Python programming
-- Pandas data manipulation
-- Matplotlib and Seaborn visualization
-- Statistical analysis
-- Markdown documentation
+## Contact Information
+- [**LinkedIn**](https://www.linkedin.com/in/ruben-sam/)
