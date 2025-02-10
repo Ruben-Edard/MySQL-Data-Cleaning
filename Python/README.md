@@ -122,7 +122,31 @@ plt.tight_layout()
 plt.show()
 ```
 
+### Conservation Status Analysis
 
+![imagem](https://github.com/user-attachments/assets/e37e4ac9-a2c7-41bd-9f8d-4e5f51749f4b)
+
+The conservation status distribution reveals a mix of stability and concern. While many species are classified as "Least Concern," a significant number have unknown statuses, highlighting gaps in biodiversity knowledge. The presence of "Vulnerable" and "Endangered" species underscores ongoing challenges in habitat preservation and species protection. This gradient from stability to critical risk emphasizes the need for continued conservation efforts, research, and proactive wildlife management to address biodiversity loss and prevent extinctions.
+
+```python
+# Extract population status from the Population column
+df['Conservation_Status'] = df['Population'].apply(lambda x: 
+    literal_eval(x).get('Population status', 'Unknown') if pd.notna(x) else 'Unknown')
+
+# Create a visualization of conservation status
+plt.figure(figsize=(12, 6))
+status_counts = df['Conservation_Status'].value_counts()
+
+# Use hue=status_counts.index and set legend=False
+sns.barplot(x=status_counts.values, y=status_counts.index, hue=status_counts.index, palette='RdYlGn_r', legend=False)
+
+plt.title('Distribution of Conservation Status', fontsize=14, fontweight='bold')
+plt.xlabel('Number of Species', fontsize=12)
+plt.ylabel('Status', fontsize=12)
+plt.grid(axis='x', linestyle='--', alpha=0.6)  # Light grid for better readability
+plt.tight_layout()
+plt.show()
+```
 ## Insights and Conclusions
 
 ### Key Findings
