@@ -226,4 +226,5 @@ plt.show()
 
 ## Contact Information
 - [**Email**](mailto:rubensamartinean@gmail.com)
-- [**LinkedIn**](https://www.linkedin.com/in/ruben-sam/)
+- [**LinkedIn**](https://www.linkedin.com/in/ruben-sam/){:target="_blank"}
+- <a href="https://www.linkedin.com/in/ruben-sam/" target="_blank">**LinkedIn**</a>
