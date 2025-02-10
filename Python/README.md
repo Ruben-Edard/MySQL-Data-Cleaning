@@ -5,11 +5,7 @@
 2. [Data Loading](#Data-Loading)
 3. [Data Cleaning and Preprocessing](#Data-Cleaning-and-Preprocessing)
 4. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
-- [Distribution of Conservation Status](#conservation-status-analysis)
-- [Top 10 Animal Classes](#distribution-of-animal-classes)
-- [Speed and Population Analysis](#speed-and-population-analysis)
-- [Lifespan Analysis](#lifespan-analysis)
-6. [Insights and Conclusions](#insights-and-conclusions)
+5. [Insights and Conclusions](#insights-and-conclusions)
 
 
 ## Introduction
