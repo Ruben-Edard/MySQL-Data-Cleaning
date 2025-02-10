@@ -124,29 +124,43 @@ plt.show()
 
 ### Conservation Status Analysis
 
-![imagem](https://github.com/user-attachments/assets/e37e4ac9-a2c7-41bd-9f8d-4e5f51749f4b)
+![imagem](https://github.com/user-attachments/assets/0b30532c-0fd9-483a-b42d-4b06207b4d35)
 
 The conservation status distribution reveals a mix of stability and concern. While many species are classified as "Least Concern," a significant number have unknown statuses, highlighting gaps in biodiversity knowledge. The presence of "Vulnerable" and "Endangered" species underscores ongoing challenges in habitat preservation and species protection. This gradient from stability to critical risk emphasizes the need for continued conservation efforts, research, and proactive wildlife management to address biodiversity loss and prevent extinctions.
 
 ```python
-# Extract population status from the Population column
-df['Conservation_Status'] = df['Population'].apply(lambda x: 
-    literal_eval(x).get('Population status', 'Unknown') if pd.notna(x) else 'Unknown')
-
-# Create a visualization of conservation status
 plt.figure(figsize=(12, 6))
 status_counts = df['Conservation_Status'].value_counts()
 
-# Use hue=status_counts.index and set legend=False
-sns.barplot(x=status_counts.values, y=status_counts.index, hue=status_counts.index, palette='RdYlGn_r', legend=False)
+# Create the barplot
+ax = sns.barplot(x=status_counts.values, y=status_counts.index, hue=status_counts.index, palette='RdYlGn_r', legend=False)
 
+# Add labels to the bars
+for i, v in enumerate(status_counts.values):
+    ax.text(v + 0.05, i, str(v), color='black', ha='left', va='center', fontsize=10)
+
+# Customize the chart
 plt.title('Distribution of Conservation Status', fontsize=14, fontweight='bold')
 plt.xlabel('Number of Species', fontsize=12)
 plt.ylabel('Status', fontsize=12)
 plt.grid(axis='x', linestyle='--', alpha=0.6)  # Light grid for better readability
 plt.tight_layout()
+
 plt.show()
 ```
+
+### Speed and Population Analysis
+
+![imagem](https://github.com/user-attachments/assets/1a1ffb04-cbd2-49a7-99de-387a9581926e)
+
+The scatter plot reveals speed and population data only for Aves, Mammalia, and Reptilia, with almost no speed or population information for other animal classes. Most notably, birds (Aves) clearly dominate the high-speed range, showing a significant number of species capable of achieving extreme velocities compared to mammals and reptiles. The limited dataset underscores the need for more comprehensive research on speed and population dynamics across diverse animal taxonomic groups.
+
+### Lifespan Analysis
+
+```python
+
+```
+
 ## Insights and Conclusions
 
 ### Key Findings
