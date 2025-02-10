@@ -89,17 +89,38 @@ print(df[numerical_cols].isnull().sum())
 
 ## Exploratory Data Analysis
 
-### Conservation Status Analysis
 
-# Create a figure for distribution of animal classes
+### Distribution of animal classes
+
+![imagem](https://github.com/user-attachments/assets/6b86ddf2-dd5b-43ce-b048-0df18b9503b4)
+
+This bar graph shows the top 10 animal classes ranked by the number of species in each class.  
+Birds clearly dominate in terms of species diversity, followed by mammals and reptiles.
+Aves (birds) have the highest number of species, with 10,114 distinct species.
+Scaphopoda (tusk shells) have the lowest number of species: 13.
+
+```python
 plt.figure(figsize=(12, 6))
+
+# Get class counts
 class_counts = df['Class'].value_counts()
-sns.barplot(x=class_counts.values[:10], y=class_counts.index[:10])
-plt.title('Top 10 Animal Classes in Dataset')
-plt.xlabel('Number of Species')
-plt.ylabel('Class')
+
+# Create a barplot with color palette
+ax = sns.barplot(x=class_counts.values[:10], y=class_counts.index[:10], palette="viridis")
+
+# Add labels to the bars
+for i, v in enumerate(class_counts.values[:10]):
+    ax.text(v + 0.05, i, str(v), color='black', ha='left', va='center', fontsize=10)
+
+# Customize the chart
+plt.title('Top 10 Animal Classes', fontsize=14, fontweight='bold')
+plt.xlabel('Number of Species', fontsize=12)
+plt.ylabel('Class', fontsize=12)
+plt.grid(axis='x', linestyle='--', alpha=0.6)  # Light grid for better readability
 plt.tight_layout()
+
 plt.show()
+```
 
 
 ## Insights and Conclusions
@@ -122,9 +143,9 @@ plt.show()
    - Factors potentially influencing longevity
 
 ### Limitations and Future Work
-- Dataset constraints
-- Potential biases in data collection
-- Suggestions for further research
+- Dataset Limitations: Missing values, inconsistent data formats.
+- Biases: Potential lack of representation for some species.
+- Future Enhancements: Machine learning models for species classification or conservation status prediction.
 
 **Skills Developed:**
 - Python programming
