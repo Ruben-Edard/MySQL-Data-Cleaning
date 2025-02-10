@@ -157,8 +157,40 @@ The scatter plot reveals speed and population data only for Aves, Mammalia, and 
 
 ### Lifespan Analysis
 
-```python
+![imagem](https://github.com/user-attachments/assets/471b5dbc-a7cd-4120-941d-ebac2083f0da)
 
+```python
+# Set figure size and style
+plt.figure(figsize=(14, 7))
+sns.set_style("whitegrid")
+plt.rcParams['font.size'] = 12
+plt.rcParams['axes.labelsize'] = 14
+plt.rcParams['axes.titlesize'] = 16
+
+# Calculate average lifespan and remove NaN values
+avg_lifespan = df.groupby('Class')['Life_span_years'].mean().dropna().sort_values(ascending=False)
+
+# Create a new color palette (using "coolwarm" for better contrast)
+colors = sns.color_palette("coolwarm", n_colors=len(avg_lifespan))
+
+# Plot with seaborn (set hue to 'Class' and disable the legend)
+ax = sns.barplot(x=avg_lifespan.index, y=avg_lifespan.values, palette=colors, hue=avg_lifespan.index, legend=False)
+
+# Add value labels on top of the bars with grey color
+for i, v in enumerate(avg_lifespan.values):
+    ax.text(i, v + 0.1, f'{v:.1f}', ha='center', va='bottom', fontweight='bold', color='grey')
+
+# Title and labels
+plt.title('Average Lifespan Across Animal Classes', fontweight='bold')
+plt.xlabel('Animal Class', fontweight='bold')
+plt.ylabel('Average Lifespan (years)', fontweight='bold')
+
+# Add a subtle background color
+plt.gca().set_facecolor('#f0f0f0')
+
+# Adjust layout and add tight border
+plt.tight_layout()
+plt.show()
 ```
 
 ## Insights and Conclusions
