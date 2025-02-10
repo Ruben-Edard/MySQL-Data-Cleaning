@@ -7,7 +7,6 @@
 4. [Exploratory Data Analysis](#Exploratory-Data-Analysis)
 5. [Insights and Conclusions](#insights-and-conclusions)
 
-
 ## Introduction
 This project represents my initial journey into data and Python programming, focusing on analyzing a comprehensive wildlife dataset.
 This data set contains information about various animal species, their characteristics, habitats, and conservation status. The analysis includes population trends, species distribution, physical characteristics, and conservation insights.
