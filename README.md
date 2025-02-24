@@ -10,4 +10,7 @@ This project analyzes the sales performance and profitability metrics of a plant
 
 This project analyzes a comprehensive wildlife dataset containing information about various animal species
 
+## [Project 3: Power BI: Audio Devices Sales](https://github.com/Ruben-Eduard/PortfolioProjects/tree/main/Power%20BI%20Audio)
+
+This project analyzes a comprehensive wildlife dataset containing information about various animal species
 ## [Project 3: MySQL Exploratory Data on layoffs](https://github.com/Ruben-Eduard/PortfolioProjects/tree/main/MySQL%20Project)
