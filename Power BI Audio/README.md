@@ -1,84 +1,89 @@
+# Asces Sound Sales Analytics Dashboard
+
+## Project Description
+This data analytics project delivers a comprehensive Power BI dashboard for Asces Sound, focusing on:
+- 📊 Revenue analysis by region and timeframe
+- 💹 Year-over-Year profit and sales performance
+- 🔍 Customer segment breakdown
+- 📈 Discount band distribution analysis
+
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Background](#background)
-3. [Tools Used](#tools-used)
-4. [Main Dashboard](#main-dashboard)
-5. [Project Guide](#project-guide)
-6. [Business Problems](#1-what-are-the-year-to-date-performance-trends-across-different-countries)
-7. [Impact and Insights](#impact-and-insights)
-8. [Conclusion](#conclusion)
+2. [Data Processing](#data-processing)
+3. [Dashboard Features](#dashboard-features)
+4. [Key Insights](#key-insights)
+5. [Technical Implementation](#technical-implementation)
+6. [Contact Information](#contact-information)
 
-# Introduction
+## Introduction
+This project addresses a management request for a comprehensive Product Analytics Dashboard for Asces Sound, a leading audio technology company. The dashboard provides strategic insights into sales performance, regional revenue distribution, and discount effectiveness to support data-driven decision making.
 
-This project analyzes the sales performance and profitability metrics of a plant distribution company operating across multiple countries. Using Power BI, the analysis transforms raw sales data into actionable insights, helping stakeholders understand market trends, product performance, and geographical distribution of sales.  
+The dashboard was developed in response to specific business requirements to track key performance metrics including regional sales performance, temporal trends, YoY growth, and revenue breakdown by customer segments.
 
-This marks my first Power BI project, representing my initial exploration into business intelligence visualization. While there may be areas for improvement, it demonstrates fundamental data analysis and visualization capabilities.
+## Data Processing
+### Data Collection and Integration
+- Imported 3 CSV files into SQL Server
+- Performed data cleaning and transformation
+- Created appropriate table relationships
+- Implemented data modeling for analytics
 
-The dataset used in this analysis is available in my GitHub repository: [Plant DTS](https://github.com/Ruben-Eduard/PortfolioProjects/blob/main/Power%20BI/Plant_DTS.xls)
+### Data Preparation Steps
+1. Connected Power BI to SQL Server database
+2. Transformed date formats for time-based analysis
+3. Created calculated measures including YoY comparisons
+4. Implemented hierarchies for drill-down capabilities
+5. Cleaned inconsistent country and category names
 
-# Background
+## Dashboard Features
+The dashboard includes the following key visualizations:
 
-Plant Co. operates internationally, selling various types of plants categorized as Indoor, Outdoor, and Landscape products. The company faces challenges in tracking performance across different markets and maintaining profitability targets. With operations spanning multiple countries and a diverse product portfolio, there's a critical need to understand sales patterns, identify underperforming markets, and optimize product mix.
-    
-    1. What are the year-to-date performance trends across different countries?
-    2. How does gross profit performance vary across quarters and product types?
-    3. What does the account profitability segmentation reveal?
-    4. What are the monthly patterns in gross profit performance?
+### Revenue Analysis
+- **Revenue by Country**: Top-performing regions with corresponding revenue
+- **Revenue by Date and Year**: Comparative monthly trends between 2022-2023
+- **YoY Performance**: Year-over-Year metrics for profit (1% growth) and units sold (6% growth)
 
-## Tools Used
+### Product Performance
+- **Product Spotlight**: Feature highlight of flagship products (Scarlett 2i2)
+- **Customer Segment Analysis**: Revenue and profit breakdown by customer type
 
-To conduct this analysis, the following tools and technologies were used:
+### Financial Breakdown
+- **Discount Band Analysis**: Distribution of revenue across discount categories
+- **Detailed Table View**: Comprehensive breakdown by customer segment including revenue and profit margins
 
-    Microsoft Excel – Initial data exploration
-    Power Query – Data cleaning, transformation and DAX calculations
-    Power BI – Data modeling and visualization
+## Key Insights
 
-## Main Dashboard
+### Revenue Distribution
+- Canada leads with the highest revenue ($191,477)
+- Strong performance in European markets (France: $176,436, Germany: $146,185)
+- United States and Mexico show significant revenue potential
 
-![imagem](https://github.com/user-attachments/assets/f41fd09e-7ad2-4b2f-b0f7-4409fc36765f)
+### Year-over-Year Performance
+- 6% growth in units sold YoY
+- Consistent monthly revenue patterns with seasonal variations
 
-## Project Guide
+### Customer Segmentation
+- Government sector shows strongest profit margins
+- Education segment represents significant revenue opportunity
 
-Data model:
-I import the CSV into PowerBI, clean the data, removing duplicates, change the data type of fields and create slicer values, finally I link the tables together in the Model side tab:
+### Discount Analysis
+- High discount band (30.74%) represents significant portion of sales
+- Medium discount tier (36.94%) is the most commonly applied
+- Low discount band (28.02%) shows potential for margin improvement
 
-![imagem](https://github.com/user-attachments/assets/fb42f895-f519-4280-ba89-84b1f13a0a99)
+## Technical Implementation
+### Technologies Used
+- **SQL Server**: Data storage and initial transformation
+- **Power BI**: Dashboard development
+- **DAX**: Calculations and measures
+- **Power Query**: Data cleaning and preprocessing
 
+### Development Approach
+1. Requirements gathering and analysis
+2. ETL process development
+3. Dashboard design and visualization selection
+4. Interactive feature implementation
 
-## 1. What are the year-to-date performance trends across different countries?
-
-The data reveals a concerning performance gap in 2023 compared to 2022, with an overall decline of 265.29K in gross profit. China shows the most significant deterioration, with gross profit falling 405K below its 2022 performance for the same period. Followed by notable declines in Sweden (-63.43K) and the United States (-57.38K), suggesting particular challenges in these major markets during 2023.
-
-![imagem](https://github.com/user-attachments/assets/efa3ffac-ea6b-4dcb-b7e4-d3edb19b9036)
-
-## 2. How does gross profit performance vary across quarters and product types?
-
-The quarterly performance shows a fluctuating pattern, with Q2 emerging as the strongest period reaching 1.47M in gross profit. However, there's a noticeable decline in subsequent quarters, with Q3 dropping to 1.17M and Q4 slightly recovering to 1.29M. Looking at product categories, Outdoor products consistently generate the highest portion of gross profit across all quarters, indicating their crucial role in the company's profitability.
-
-![imagem](https://github.com/user-attachments/assets/38e2fe3b-4eeb-4163-9534-4e09bbc2f026)
-
-
-## 3. What does the account profitability segmentation reveal?
-
-The scatter plot demonstrates that the company maintains an average gross profit margin of 39.62%. When examining individual accounts, there's a clear concentration of accounts below both the 20K value mark and the 40% GP margin average. However, several accounts demonstrate the potential for higher profitability by achieving margins above 60%. This disparity between high and low-performing accounts suggests an opportunity for improvement among the underperforming segments.
-
-![imagem](https://github.com/user-attachments/assets/cef5d50b-5ac5-4125-841c-c884e8313031)
-
-## 4. What are the monthly patterns in gross profit performance?
-
-he monthly analysis shows strongest performance in March and April, with gains of 69K and 89K respectively. However, the latter part of the year faces significant challenges, particularly in August (-87K) and October (-148K). The pronounced decline in October especially warrants attention, as it represents the largest monthly drop in gross profit. The consistent negative performance in the final months of the year indicates a systemic challenge in Q4 that needs to be addressed.
-
-![imagem](https://github.com/user-attachments/assets/c97887c6-0aae-4e3e-a249-fbc2294afca2)
-
-# Impact and Insights
-
-These analyses provide actionable insights for various stakeholders:  
-Sales teams can identify underperforming regions and products  
-Product managers can understand category performance trends  
-Financial analysts can track profitability metrics  
-Executive teams can make informed decisions about resource allocation and market focus
-
-
-# Conclusion
-
-This analysis provides stakeholders with actionable insights for business optimization. The dashboard effectively tracks performance across products, regions, and time periods. Key findings show the importance of regional market focus and product type performance monitoring. The 39.15% gross profit margin suggests room for optimization through targeted improvements in underperforming segments.
+## Contact Information
+- **Email**: [rubensamartinean@gmail.com](mailto:rubensamartinean@gmail.com)
+- **LinkedIn**: [Ruben Samartinean](https://www.linkedin.com/in/ruben-sam/)
+- **Portfolio**: [GitHub Projects](https://github.com/yourusername)
