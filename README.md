@@ -12,5 +12,6 @@ This project analyzes a comprehensive wildlife dataset containing information ab
 
 ## [Project 3: Power BI: Audio Devices Sales](https://github.com/Ruben-Eduard/PortfolioProjects/tree/main/Power%20BI%20Audio)
 
-This project analyzes a comprehensive wildlife dataset containing information about various animal species
+SQL Server to Power BI Project on audio devices sales
+
 ## [Project 4: MySQL Exploratory Data on layoffs](https://github.com/Ruben-Eduard/PortfolioProjects/tree/main/MySQL%20Project)
